@@ -6,7 +6,8 @@
 </head>
 <body>
     <h1>Word Count App</h1>
-
+    <a href="{% url 'about' %}">About us!</a>
+    <br /><br />
     <form action="{% url 'count' %}">
         <textarea cols="40" rows="5" name="fulltext"></textarea>
         <br />
